@@ -4,14 +4,13 @@ import "./Workexperience.css";
 import protechsoft from './Photos/ProtechSoft.jpg'
 function Workexperience() {
   return (<>
- {/* <div className="bg_two">
-      <div className="mainheading "></div> */}
+
 
     <div className='mainheading d-flex flex-column align-items-center'>
         <b>Professional Experience</b>
         </div>
 
-        <section style={{backgroundColor: '#F0F2F5'}}>
+        <section  className='bgNew'>
   <div class="container py-5">
     <div class="main-timeline-2">
       <div class="timeline-2 left-2 in-left"style={{ animationDuration: "3s" }}>

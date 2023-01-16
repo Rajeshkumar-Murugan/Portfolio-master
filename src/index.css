@@ -15,16 +15,9 @@ code {
 .highlights {
   padding-top: 50px;
   background-color: #b0b0b0;
-
   color: #182153;
 }
-#workexp {
-  display: flex;
-  text-align: left;
-  align-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+
 .mainheading {
   text-align: center;
   font-size: xx-large;
@@ -35,6 +28,7 @@ code {
   padding: 20px 0px;
 }
 /** fadeInLeft **/
+
 
 .in-right {
   animation: fadeInRight 2s ease-in-out;
