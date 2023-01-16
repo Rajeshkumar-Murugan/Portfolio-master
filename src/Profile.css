@@ -1,0 +1,57 @@
+.background{
+background-image: url("https://toppng.com/uploads/preview/texture-surface-dark-blue-11570456514lgg3xugs36.jpg");
+height: 100%;
+padding: 3rem;
+background-size:cover;
+}
+
+#Profile{
+    background-image: url("./Photos/Rajesh Photo Half.jpg");
+    background-size:cover;
+    background-position: center;
+    /* border-radius: 25%; */
+}
+
+
+#contactForm{
+    background-color:  #182153;  
+}
+
+ #contactDetails, .contactTitle{
+    background-color: whitesmoke;
+    
+}
+
+#Profile, #contactForm,#contactDetails{
+   
+    height: 500px;
+    width: 500px;
+}
+
+.footerdata {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#contactDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large;
+    color: #182153;   
+}
+
+.contactinform{
+    text-align: left;
+}
+
+
+.img-fluid{
+    height: 100%;
+    width: 100%;
+}
+
