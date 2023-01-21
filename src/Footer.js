@@ -34,7 +34,7 @@ function Footer() {
   let sendmail = async (val) => {
     try {
       let res = await axios.post(
-        "https://modelprintingserver.herokuapp.com/users/Message",
+        "https://modelprinting-server.onrender.com/users/Message",
         val
       );
       toast.success("Mail sent Successfully");
