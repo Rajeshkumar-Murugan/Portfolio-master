@@ -51,6 +51,7 @@ code {
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: fadeInLeft;
+  
 }
 @keyframes fadeInLeft {
   from {
@@ -80,7 +81,7 @@ p {
   transition: transform 0.2s; /* Animation */
   width: 8rem;
   height: 8rem;
-  margin: 0 auto;
+  margin: 0;
 }
 .circlecard:hover {
   transform: scale(
@@ -125,3 +126,7 @@ p, h4{
 b{
   font-family: 'Encode Sans SC', sans-serif;
 }
+
+
+/* Animation on scroll */
+

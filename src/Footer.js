@@ -57,9 +57,10 @@ function Footer() {
           id="contactUs"
         >
           <div
-            className="col-12 col-md-6 in-left"
+            className="col-12 col-md-6"
             id="contactForm"
-            style={{ animationDuration: "3s" }}
+            data-aos="fade-right"
+            data-aos-duration="3000"
           >
             <form onSubmit={formik.handleSubmit}>
               <label htmlFor="name">Name</label>
@@ -133,9 +134,10 @@ function Footer() {
           </div>
 
           <div
-            className="col-12 col-md-6 in-right"
+            className="col-12 col-md-6"
             id="contactDetails"
-            style={{ animationDuration: "3s" }}
+            data-aos="fade-left"
+            data-aos-duration="3000"
           >
             <div className="contactinform">
               <p>Name: Rajesh Kumar</p>

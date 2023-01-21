@@ -13,7 +13,9 @@ function Projects() {
       <div class="accordion" id="accordionExample">
   
       <div className="card-group">
-        <div className="card">
+        <div className="card" 
+        // data-aos="fade-left" data-aos-duration="1000"
+        >
           <a
             href="https://rajeshkumarbookmyshow.netlify.app"
             target="_blank"
@@ -63,7 +65,9 @@ function Projects() {
     </div>
   </div>
         </div>
-        <div className="card">
+        <div className="card" 
+        // data-aos="fade-left" data-aos-duration="2000"
+        >
           <a
             href="https://rajeshkumar3dprinting.netlify.app"
             target="_blank"
@@ -112,7 +116,9 @@ function Projects() {
     </div>
         </div>
 
-        <div className="card">
+        <div className="card" 
+        // data-aos="fade-left" data-aos-duration="3000"
+        >
           <a
             href="https://rajeshkumarproject.netlify.app"
             target="_blank"
@@ -166,7 +172,7 @@ function Projects() {
         <div className="container-fluid mainheading">
           <b>Frontend Projects</b>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-right" data-aos-duration="1000">
           <a
             href="https://rajeshkumarpetshop.netlify.app"
             target="_blank"
@@ -191,7 +197,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="fade-right" data-aos-duration="2000">
           <a
             href="https://rajeshkumarnews.netlify.app"
             target="_blank"
@@ -216,7 +222,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" data-aos="fade-right" data-aos-duration="3000">
           <a
             href="https://vigilant-varahamihira-364ca2.netlify.app"
             target="_blank"

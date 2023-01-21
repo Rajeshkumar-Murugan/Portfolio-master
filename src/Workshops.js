@@ -13,7 +13,9 @@ function Workshops() {
                 
             <div className='col-12 col-md-4'>
            <h4 className='text-white'>Course Title</h4> 
-            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"2s"}}>
+            <div className='transparentbg  text-left mx-auto' data-aos="flip-left"      
+            data-aos-easing="ease-out-cubic"
+ data-aos-duration="3000">
                 <p>RoboHack-In vspart</p>
                 <p>Cyber Security & Malware</p>
                 <p>Android Mobile Apppcation Development</p>
@@ -28,7 +30,7 @@ function Workshops() {
            
             <div className='col-12 col-md-4'>
            <h4 className='text-white'>Institution</h4> 
-            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"4s"}}>
+            <div className='transparentbg  text-left mx-auto'  data-aos="flip-right" data-aos-duration="3000">
                 <p>KaaShiv Info Tech</p>
                 <p>St.Peter's University</p>
                 <p>St.Peter's University</p>
@@ -42,7 +44,7 @@ function Workshops() {
 
             <div className='col-12 col-md-4'>
            <h4 className='text-white'>Year</h4> 
-            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"6s"}}>
+            <div className='transparentbg  text-left mx-auto'  data-aos="flip-left" data-aos-duration="3000">
                 <p>08.03.2015</p>
                 <p>29.09.2015</p>
                 <p>11.03.2016</p>

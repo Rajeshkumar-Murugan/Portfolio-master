@@ -13,12 +13,12 @@ function Workexperience() {
         <section  className='bgNew'>
   <div class="container py-5">
     <div class="main-timeline-2">
-      <div class="timeline-2 left-2 in-left"style={{ animationDuration: "3s" }}>
+      <div class="timeline-2 left-2" data-aos="flip-left" data-aos-duration="3000" data-aos-easing="ease-in-sine">
         <div class="card">
           <img src={protechsoft} class="card-img-top"
-            alt="Protechsoft Technologies Pvt. Ltd."/>
+            alt="Protechsoft Technologies Pvt. Ltd." style={{height:80, width:200}}/>
           <div class="card-body p-4">
-            <h4 class="fw-bold mb-4">Protechsoft Technologies</h4>
+            {/* <h4 class="fw-bold mb-4">Protechsoft Technologies</h4> */}
               
             <p class="text-muted mb-4"><i class="far fa-calendar" aria-hidden="true"></i> 2018 - 2022</p>
             
@@ -38,12 +38,12 @@ function Workexperience() {
           </div>
         </div>
       </div>
-      <div class="timeline-2 right-2 in-right" style={{ animationDuration: "4s" }}>
+      <div class="timeline-2 right-2 " data-aos="flip-right" data-aos-duration="3000" data-aos-easing="ease-in-sine">
         <div class="card">
           <img src="https://www.zohowebstatic.com/sites/default/files/zoho-logo-zh-2x.png" class="card-img-top"
-            alt="Zoho Corporations"/>
+            alt="Zoho Corporations" style={{height:85, width:200}}/>
           <div class="card-body p-4">
-            <h4 class="fw-bold mb-4">Zoho Corporations</h4>
+            {/* <h4 class="fw-bold mb-4">Zoho Corporations</h4> */}
             <p class="text-muted mb-4"><i class="far fa-calendar" aria-hidden="true"></i> 2022 - Till Present</p>
             <p class="mb-0">
             <h5><b>Software Developer</b></h5>

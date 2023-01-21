@@ -8,15 +8,17 @@ function Education() {
         </div> 
         
             {/* School details */}
-            <div className='row highlights'>
-                <div className='col in-left'style={{animationDuration:"1s"}}>
+            <div className='row highlights' style={{marginRight:0}}>
+                <div className='col ' data-aos="fade-right"
+              data-aos-duration="1000">
                 
                     <h4 style={{textAlign:"right"}}>2012<br/>SSLC
                         </h4>
                     
                 </div>
   <div className="vr"></div>
-                <div className='col in-right' style={{animationDuration:"1s"}}>
+                <div className='col ' data-aos="fade-left"
+              data-aos-duration="1000">
                 <p> Course : SSLC<br/>
                     Institution : K B J G MAT HSS<br/>
                     University/board : STATE BOARD<br/>
@@ -25,15 +27,17 @@ function Education() {
                 </div>
                 </div>
                 {/* High School details */}
-                <div className='row highlights'>
-                <div className='col in-left' style={{animationDuration:"2s"}}>
+                <div className='row highlights' style={{marginRight:0}}>
+                <div className='col ' data-aos="fade-right"
+              data-aos-duration="1000" >
                 
                 <h4 style={{textAlign:"right"}}>2012-2014<br/>HSC
                     </h4>
                 
             </div>
             <div className="vr"></div>
-            <div className='col in-right' style={{animationDuration:"2s"}}>
+            <div className='col ' data-aos="fade-left"
+              data-aos-duration="1000" >
            <p> Course : HSC<br/>
 
     Institution : K B J G MAT HSS<br/>
@@ -44,15 +48,17 @@ function Education() {
             </div>
                 </div>
             {/* College details */}
-                <div className='row highlights'>
-    <div className='col in-left' style={{animationDuration:"3s"}}>
+                <div className='row highlights' style={{marginRight:0}}>
+    <div className='col ' data-aos="fade-right"
+              data-aos-duration="1000">
                     
                     <h4 style={{textAlign:"right"}}>2014-2018<br/>B.E.CSE
                         </h4>
                     
                 </div>
   <div className="vr"></div>
-                <div className='col in-right' style={{animationDuration:"3s"}}>
+                <div className='col ' data-aos="fade-left"
+              data-aos-duration="1000">
             <p>
             Course : B.E.CSE<br/>
 

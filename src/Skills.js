@@ -27,15 +27,18 @@ function Skills() {
         <div className="row">
           <div className="col-12 col-md-6">
             <div
-              className="transparentbg in-left"
-              style={{ animationDuration: "1s" }}
+              className="transparentbg" 
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              // data-aos-easing="ease-in-sine"
             >
               Fronend (HTML, CSS, JavaScript, React)
             </div>
             <br />
 
             <div
-              className="transparentbg in-left"
+              className="transparentbg " data-aos="fade-right"
+              data-aos-duration="1000"
               style={{ animationDuration: "2s" }}
             >
               Backend (Node Js, Express, MangoDB)
@@ -43,7 +46,8 @@ function Skills() {
             <br />
 
             <div
-              className="transparentbg in-left"
+              className="transparentbg " data-aos="fade-right"
+              data-aos-duration="1000"
               style={{ animationDuration: "3s" }}
             >
               Libraries (Bootstrap, formik, axios)
@@ -52,17 +56,20 @@ function Skills() {
           </div>
           <div className="col-12 col-md-6">
             <div
-              className="transparentbg in-right"
+              className="transparentbg " data-aos="fade-left"
+              data-aos-duration="1000"
               style={{ animationDuration: "2.5s" }}
             >
               Software Testing-Manual and Selenium Automation Tool
             </div>
             <br />
-            <div className="transparentbg in-right">
+            <div className="transparentbg " data-aos="fade-left"
+              data-aos-duration="1000">
               Computer Hardware - Proficient
             </div>
             <br />
-            <div className="transparentbg in-right">
+            <div className="transparentbg " data-aos="fade-left"
+              data-aos-duration="1000">
               Tae Kwon Do player - Senior level
             </div>
             <br />
@@ -79,7 +86,8 @@ function Skills() {
         
               <img
                 src={html}
-                className="SkillIcons in-left" 
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000" 
                 style={{ animationDuration: "2s" }}
                
               />
@@ -88,7 +96,8 @@ function Skills() {
           
               <img
                 src={css}
-                className="SkillIcons in-left"
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000"
                 style={{ animationDuration: "3s" }}
               />
             
@@ -96,7 +105,8 @@ function Skills() {
             
               <img
                 src = {Js}
-                className="SkillIcons in-left"
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000"
                 style={{ animationDuration: "4s" }}
               />
                         
@@ -105,7 +115,8 @@ function Skills() {
            
               <img
                 src={nodejs}
-                className="SkillIcons in-left"
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000"
                 style={{ animationDuration: "5s" }}
               />
            
@@ -113,14 +124,16 @@ function Skills() {
             
               <img
                 src={expressjslogo}
-                className="SkillIcons in-left"
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000"
                 style={{ animationDuration: "6s" }}
               />
            
             
               <img
                 src={mongodb}
-                className="SkillIcons in-left"
+                className="SkillIcons " data-aos="fade-right"
+              data-aos-duration="1000"
                 style={{backgroundColor:"white", borderRadius:"10px", animationDuration: "7s" }}
               />
             
@@ -129,21 +142,24 @@ function Skills() {
         
               <img
                 src={react}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{ animationDuration: "7s" }}
               />
           
             
               <img
                 src ={bootstrap}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{ animationDuration: "6s" }}
               />
            
             
               <img
                 src ={formik}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{ animationDuration: "5s" }}
               />
            
@@ -154,21 +170,24 @@ function Skills() {
            
               <img
                 src={vscode}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{ animationDuration: "4s" }}
               />
            
             
               <img
                 src={github}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{backgroundColor:"white", borderRadius:"50px", animationDuration: "3s" }}
               />
               <div data-aos="zoom-in">
 
               <img
                 src={sqlpic}
-                className="SkillIcons in-right"
+                className="SkillIcons " data-aos="fade-left"
+              data-aos-duration="1000"
                 style={{ animationDuration: "2s" }}
               />
               </div>
