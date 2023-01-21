@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import "./Footerstyle.css";
@@ -6,6 +6,8 @@ import { toast } from "react-toastify";
 import axios from "axios";
 
 function Footer() {
+  const [spiner, setspiner] = useState(`Send`)
+
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -28,6 +30,9 @@ function Footer() {
     onSubmit: (values) => {
       console.log(values)
       sendmail(values, null, 2);
+      setspiner(<div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>)
     },
   });
 
@@ -38,8 +43,10 @@ function Footer() {
         val
       );
       toast.success("Mail sent Successfully");
+      setspiner(`Send`)
     } catch (error) {
       toast.error("Mail not sent");
+      setspiner(`Send`)
       console.log(error);
     }
   };
@@ -124,7 +131,8 @@ function Footer() {
            
 <div class="d-grid gap-2 col-6 mx-auto">
               <button type="submit" className="btn btn-primary">
-                Send Mail
+              
+              {spiner}
               </button>
               
               </div>
@@ -187,3 +195,5 @@ function Footer() {
 }
 
 export default Footer;
+
+
