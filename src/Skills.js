@@ -32,7 +32,7 @@ function Skills() {
               data-aos-duration="1000"
               // data-aos-easing="ease-in-sine"
             >
-              Fronend (HTML, CSS, JavaScript, React)
+              Frontend (HTML, CSS, JavaScript, React)
             </div>
             <br />
 

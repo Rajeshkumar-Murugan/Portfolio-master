@@ -18,8 +18,8 @@ function Workshops() {
  data-aos-duration="3000">
                 <p>RoboHack-In vspart</p>
                 <p>Cyber Security & Malware</p>
-                <p>Android Mobile Apppcation Development</p>
-                <p>Android Mobile Apppcation Development</p>
+                <p>Android Mobile Application Development</p>
+                <p>Android Mobile Application Development</p>
                 <p>Adobe After Effect Animation Tool</p>   
                 <p>Python Programming</p>
                 <p>Data Analytics & R Programming</p>   
