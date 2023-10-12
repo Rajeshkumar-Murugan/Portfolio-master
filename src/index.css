@@ -98,13 +98,13 @@ a {
 }
 
 .bg_one {
-  background-image: url("./Photos/Image.jpeg");
+  background-image: url("./Photos/spark.gif");
   padding: 3rem 0px;
   background-size: cover;
 }
 
 .bg_two {
-  background-image: url("https://media0.giphy.com/media/26wcZlCq5O7pVD1sY/giphy.gif");
+  background-image: url("./Photos/Image.jpeg");
 
   background-size: fit;
 }
