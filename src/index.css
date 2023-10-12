@@ -98,7 +98,7 @@ a {
 }
 
 .bg_one {
-  background-image: url(""./Photos/Image.jpeg"");
+  background-image: url("./Photos/Image.jpeg");
   padding: 3rem 0px;
   background-size: cover;
 }
