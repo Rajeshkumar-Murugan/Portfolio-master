@@ -100,11 +100,11 @@ a {
 .bg_one {
   background-image: url("./Photos/spark.gif");
   padding: 3rem 0px;
-  background-size: cover;
+  background-size: auto;
 }
 
 .bg_two {
-  background-image: url("./Photos/Image.jpeg");
+  background-image: url("./Photos/bg2.gif");
 
   background-size: fit;
 }
