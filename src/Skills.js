@@ -41,7 +41,7 @@ function Skills() {
               data-aos-duration="1000"
               style={{ animationDuration: "2s" }}
             >
-              Backend (Node Js, Express, MangoDB)
+              Backend (Node Js, Express, MongoDB)
             </div>
             <br />
 
